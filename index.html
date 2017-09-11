@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<!--
+Created using JS Bin
+http://jsbin.com
+
+Copyright (c) 2017 by jarabik8810 (http://jsbin.com/yemikaj/1/edit)
+
+Released under the MIT license: http://jsbin.mit-license.org
+-->
+<meta name="robots" content="noindex">
+<html>
+<head>
+<meta name="description" content="Registration-form-2">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>JS Bin</title>
+  <!--[if IE 8}>
+    <style type="text/css">
+      form#reg fieldset {
+        position: relative;
+}
+      form#reg fieldset legend {
+        position: absolute;
+        top: -12px;
+}
+      select {
+        padding: 0;
+}
+    </style>
+  <![endif]-->
+<style id="jsbin-css">
+* {
+  padding: 0;
+  margin: 0;
+  font-family: tahoma,verdana,arial;
+  font-size: 12px;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 20px;
+  color: #51717c;
+  background: #f4f4f4;
+}
+
+#container {
+  width: 400px;
+  margin: 0 auto;
+}
+
+form#reg fieldset {
+  padding: 20px;
+  width: 360px;
+  margin: 0 0 30px 0;
+  border: 2px solid #AFD3E0;
+  background: #E8F2F6;
+}
+
+form#reg fieldset legend {
+  padding: 5px 10px;
+  width: 100px;
+  background: #91C82E;
+  color: #fff;
+  border: 1px solid #78A626;
+}
+form#reg fieldset fieldset {
+  width: 300px;
+  margin: 20px 0 0 0;
+  background: #fff;
+}
+form#reg fieldset ol {
+  list-style: none;
+}
+form#reg fieldset ol li {
+  padding: 5px 0;
+  clear: both;
+}
+form#reg fieldset label {
+  width: 150px;
+  float: left;
+}
+form#reg fieldset em {
+  color: red;
+}
+
+form#reg input[type="text"],
+form#reg input[type="password"] {
+  width: 190px;
+  border: 2px solid #AFD3E0;
+  padding: 4px;
+  font-family: courier;
+  color: #6f96a5;
+}
+select {
+  padding: 3px;
+  border: 2px solid #AFD3E0;
+}
+
+form#reg input[type="submit"] {
+  background: #91c82a;
+  color: #fff;
+  border: 1px solid #78A626;
+  padding: 5px 10px;
+  font-size: 14px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+</style>
+</head>
+<body>
+<div id="container">  
+  <form id="reg" action="" method="post">         
+    <fieldset><legend>Regisztracio</legend>
+      <ol>
+        <li>
+          <label for="username">Felhasznalonev<em>*</em></label>
+          <input id="username" type="text">
+        </li>
+        <li>
+          <label for="password">Jelszo<em>*</em></label>
+          <input id="password" type="password">
+        </li>
+        <li>
+          <label for="email">e-mail cim<em>*</em></label>
+          <input id="email" type="text">
+        </li>
+      </ol>
+  </fieldset>
+    <fieldset>
+      <legend>Cim</legend>
+      <ol>
+        <li>
+          <label for="fullnaem">Teljes nev<em>*</em></label>
+          <input id="fullname" type="text">
+        </li>
+         <li>
+          <label for="city">Varos</label>
+          <input id="city" type="text">
+        </li>
+         <li>
+          <label for="zip">Iranyitoszam</label>
+          <input id="zip" type="text">
+        </li>
+         <li>
+          <label for="zip">Cim</label>
+          <input id="zip" type="text">
+        </li>
+      </ol>
+    </fieldset>
+    <fieldset>
+      <legend>Egyeb</legend>
+      <ol>
+        <li>
+          <label for="birthdate">Szuletesi datum</label>
+          <select name="" id="">
+            <option>1980</option>
+            <option value="">1981</option>
+          </select>
+          <select name="" id="">
+            <option value="">januar</option>
+            <option value="">februar</option>
+            <option value="">februar</option>
+          </select>
+          <select name="" id="">
+            <option value="">1</option>
+            <option value="">2</option>
+          </select>
+        </li>
+        <li>
+          <fieldset>
+            <legend>hirlevel</legend>
+            <ol>
+              <li><label for="newsletter-yes"><input type="checkbox" id="newsletter-yes"></label>Igen</li>
+              <li><label for="newsletter-no"><input type="checkbox" id="newsletter-no"></label>Nem</li>
+            </ol>
+          </fieldset>
+        </li>
+      </ol>
+    </fieldset>
+    <input type="submit" value="Regisztracio">
+  </form>
+</div>  
+</body>
+</html>
